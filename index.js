@@ -13,6 +13,12 @@ function mul(num1, num2) {
     return num1 * num2;
 }
 
+
+function div(num1, num2) {
+    return num1 / num2;
+}
+
+
 button.addEventListener("click", function () {
     console.log(add(+inum1.value, +inum2.value));
 });
